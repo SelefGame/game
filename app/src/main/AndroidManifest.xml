@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <!--
+ Required only if your app needs to access images or photos
+     that other apps created.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--
+ Required only if your app needs to access videos
+         that other apps created.
+    -->
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <!--
+<uses-permission
+        android:name="android.permission.CAMERA"
+        android:required="true"
+        android:requiredFeature="true" />
+    -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test2"
+        android:usesCleartextTraffic="true"
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+        <activity
+            android:name=".create_mishen_kind_1_3_do_Like_the_Pic"
+            android:exported="false" />
+        <activity
+            android:name=".maps_select_update_point_for_mishen_free_maps"
+            android:exported="false"
+            android:label="@string/title_activity_maps_select_update_point_for_mishen_free_maps"
+            android:theme="@style/Theme.Test2.NoActionBar" />
+        <activity
+            android:name=".map_the_way_to_mishen_free_map"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity1"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".maps_the_direction_to_mishen"
+            android:exported="false"
+            android:label="@string/title_activity_maps_the_direction_to_mishen"
+            android:theme="@style/Theme.Test2.NoActionBar" />
+        <activity
+            android:name=".map_the_way_to_mishen"
+            android:exported="false" />
+        <activity
+            android:name=".Start_Play_SelectGame"
+            android:exported="false" />
+        <activity
+            android:name=".show_mishen_kind_1_2_yes_no"
+            android:exported="false" />
+        <activity
+            android:name=".show_mishen_kind_1_1_radiobutten"
+            android:exported="false" />
+        <activity
+            android:name=".show_mishen_kind_2_2_yes_no"
+            android:exported="false" />
+        <activity
+            android:name=".uploaud_Files"
+            android:exported="false" />
+        <activity
+            android:name=".create_mishen_kind_2_2_yes_no"
+            android:exported="false" />
+        <activity
+            android:name=".show_mishen_kind_2_1_radiobutten"
+            android:exported="false" />
+        <activity
+            android:name=".create_new_mishen_to_game_create_spsific_kind_camera"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_Screan_to_get_Video"
+            android:exported="false" />
+        <activity
+            android:name=".activity_create_Show_vidio_and_qwesten_mishen"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressBar"
+            android:exported="false" />
+        <activity
+            android:name=".Show_mishen_kind_yes_no_qwesten"
+            android:exported="false" />
+        <activity
+            android:name=".StartPlayGame"
+            android:exported="false" />
+        <activity
+            android:name=".show_exist_games_and_mishens_to_play_save_game_to_play"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".show_exist_games_and_mishens_to_play_on_map_main_screen"
+            android:exported="true"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Create_mishen_do_activity_tack_same_pic"
+            android:exported="false"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Maps_select_update_point_for_Mishen"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".QwestenSelectAnserRedioBox"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".create_mishen_kind_1_1_radiobutten"
+            android:exported="false"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".create_mishen_kind_2_1_radiobutten"
+            android:exported="false"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".create_mishen_kind_1_2_yes_no"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".games_exist"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Create_Or_Update_Game"
+            android:enabled="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".new_game_insert_main_propertis"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".create_new_mishen_to_game_main_screan"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".create_new_mishen_to_game_select_kind_main_screan"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".main_create_game"
+            android:exported="false"
+            tools:ignore="DuplicateActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2330011334188307~2229437237" />
+    </application>
+
+</manifest>

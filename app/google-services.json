@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454888240437",
+    "project_id": "rungame-58283",
+    "storage_bucket": "rungame-58283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454888240437:android:a6d6db0bb5d4069c19087c",
+        "android_client_info": {
+          "package_name": "com.example.test2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454888240437-trrbk4cvvuopdohpndbdif141t5epunc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8nc4y2XgTe13p5YwWCno1E-CxAme0A6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454888240437-trrbk4cvvuopdohpndbdif141t5epunc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

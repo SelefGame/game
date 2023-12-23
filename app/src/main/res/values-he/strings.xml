@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">test2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="signed">signed</string>
+    <string name="already_have_an_account_login">already_have_an_account_login</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="password">Pass Word</string>
+    <string name="email">Email</string>
+
+    <string name="don_t_have_an_account_sign_in">don_t_have_an_account_sign_in</string>
+    <string name="login">login</string>
+
+
+
+    <string name="MainScren_start_Play">התחל לשחק משחק</string>
+    <string name="MainScren_Create_new_Game">צור מצחק חדש</string>
+    <string name="MainScren_Setings">הגדרות</string>
+    <string name="MainScren_Show_Games_on_Map">הצג משחקים קיימים</string>
+
+    <string name="CreateNewGame_lable_create_Game">צור או ערוך משחק חדש.</string>
+
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Craet_Game_Name">שם יוצר המשחק</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Game_Subject">נושא המשחק</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Game_Descriptoin">תאור המשחק</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Game_Kind">גלאי השחקנים</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Place_Of_Game">מקום המשחק</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Remarks">הערות</string>
+
+    <string name="CreateNewMishen_Main_SCrean_lable_create_Mishen">צור או ערוך משימה חדשה</string>
+    <string name="CreateNewMishen_Main_SCrean_Subject_Select_game">נושא המשחק</string>
+
+    <string name="create_new_mishen_to_game_main_screan_Arry_Point_Info_Game">נקודת תחילת המשחק</string>
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Main_lable">בחר את סוג המשימה להוספה</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_Select_anser">שאלות על תמונות</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_Vidio">שאלות על וידאו</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_Trivia">שאלות טרויה\יודע כללי</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_kind4">משימות לביצוע</string>
+
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Main_lable">בחר את סוג המשימה להוספה</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_4_Anser_Picher">שאלה ו 4 תשובות על תמונות</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_YesNo_picher">שאלה נכון לא נכון על תמונה</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_YesNo">שאלה נכון לא נכון</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_4_Anser">שאלה ו 4 תשובות </string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_kind4_LableKindDescription">שאלה ו 4 תשובות על תמונות</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_YesNo_picher_LableKindDescription">שאלה נכון לא נכון על תמונה</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_YesNo_picher_Q">רשום שאלה (כן או לא ) על התמונה</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_SCrean_New_Mishen_Q_YesNo_LableKindDescription">שאלה נכון לא נכון</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_SCrean_New_Mishen_Q_4_Anser_LableKindDescription">שאלה ו 4 תשובות</string>
+
+
+    <string name="create_mishen_kind_1_1_radiobutten_hit_Q">הוסף שאלה על התמונה</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser1">הוסף תשובה</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser2">הוסף תשובה</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser3">הוסף תשובה</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser4">הוסף תשובה</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_imageView">הוסף תמונה מהגלריה או המצלמה</string>
+    <string name="create_mishen_kind_1_1_radiobutten_Need_TO_Add_Text">יש להוביף תמונה ולרשום שאלה,תשובות ומה התשובה הנכונה</string>
+
+
+    <string name="create_mishen_kind_1_2_yes_no_hit_Q">Add Question</string>
+    <string name="create_mishen_kind_1_2_yes_no_hit_anser_Yes">הוסף תשובה כן</string>
+    <string name="create_mishen_kind_1_2_yes_no_hit_anser_No">הוסף תשובה לא</string>
+
+
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_4_Anser_Video">שאלה ו 4 תשובות על וידאו</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_YesNo_Video">שאלה נכון לא נכון על וידאו</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Video3"> וידאו לא בשימוש</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_Video4">לא בשימוש וידאו</string>
+
+    <string name="maps_show_exist_games_game_subject">נושא המשחק</string>
+    <string name="maps_show_exist_games_mishen_numbers">מספר משימות</string>
+    <string name="maps_show_exist_games_game_description">תאור המשחק</string>
+    <string name="maps_show_exist_games_game_kind">סוג המשחק</string>
+    <string name="maps_show_exist_games_Butten_Mishen_Show_Mishen">,הצג משימות</string>
+    <string name="maps_show_exist_games_Butten_Select_Mishen">בחר משימה</string>
+    <string name="maps_show_exist_games_MSB_Txt_Need_SelectGame">יש לבחור משחק</string>
+    <string name="maps_show_exist_games_MSB_Title_Need_SelectGame">בחר משחק</string>
+
+
+
+    <string name="show_exist_games_and_mishens_to_play_save_game_to_play__save_Praviat_game">שמור משחק</string>
+    <string name="show_exist_games_and_mishens_to_play_save_game_to_play__save_Grop_game">צור ושמור משחק קבוצתי</string>
+
+
+    <string name="manage_Mishen_When_Play_game_MSB_Txt_RongEnser">התשובה אינה נכונה</string>
+    <string name="manage_Mishen_When_Play_game_Title_RongEnser">תשובה</string>
+
+
+    <string name="start_play_select_game_butten_start_StartSelfGame">התחל לשחק משחק משפחתי</string>
+    <string name="start_play_select_game_butten_start_StartGroupGame">הצטרף למשחק קבוצתי</string>
+    <string name="start_play_select_game_butten_start_Nedd_To_Select_Game_msg">בחר משחק</string>
+    <string name="start_play_select_game_butten_start_Wating_TO_Dwonload_Game">המשחק בתהליך הורדה</string>
+    <string name="start_play_select_game_butten_start_Finsh_TO_Dwonload_Game">המשחק מוכן להפעלה</string>
+
+    <string name="Maps_select_update_point_for_Mishen_butten_save_Point">שמור נקודה</string>
+
+
+    <string name="Maps_select_update_point_for_Mishen_Marker_Title">משימה מספר - </string>
+    <string name="Maps_select_update_point_for_Mishen_Marker_New_Mishen_To_ADD">מקום שבו תיהיה המשימה החדשה - יש ללחוץ ולהזיז למקום המשימה</string>
+    <string name="Maps_select_update_point_for_Mishen_Marker_New_Game_To_ADD">מקום שבו יהיה המשחק החדש - יש ללחוץ ולהזיז לתחילת המשחק</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_Info_Title">הסבר איך להגיע למשימה</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_How_To_Go_To_mishen">תאור איך להגיע לנקודה , לתחילת המשימה הבאה</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_clue_to_GO_TO_mishen">רמז איך להגיע לנקודת המשימה הבאה</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_Dont_SHow_GPS">לא להציג נקודה לניווט (הגעה לנקודה רק ע"י ההסבר)</string>
+
+
+
+</resources>

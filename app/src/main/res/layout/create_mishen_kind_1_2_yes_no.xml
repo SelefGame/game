@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp">
+
+        <ImageView
+            android:id="@+id/imageButton11"
+            android:layout_width="46dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="9dp"
+            android:onClick="AddPicFromCamera"
+            app:srcCompat="@drawable/camera"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="495dp" />
+
+        <ImageView
+            android:id="@+id/imageButton6"
+            android:layout_width="44dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="9dp"
+            android:onClick="buttonPicFromGalery"
+            app:srcCompat="@drawable/galery"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="495dp" />
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="44dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="9dp"
+            android:onClick="onSaveMishenButtonClicked"
+            app:srcCompat="@drawable/save" />
+
+        <ImageView
+            android:id="@+id/imageButton3"
+            android:layout_width="44dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="9dp"
+            android:onClick="buttonChangPointOnMap"
+            app:srcCompat="@drawable/map_show" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonYes"
+        android:layout_width="163dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:onClick="buttonYes"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonNo"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNo"
+        android:layout_width="142dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="buttonNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="328dp"
+        android:layout_height="271dp"
+        android:background="@drawable/text_veiw_border"
+        android:scaleType="fitXY"
+        android:onClick="pichrViewAddPic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.241"
+        app:srcCompat="@drawable/image2" />
+
+    <EditText
+        android:id="@+id/editTextTextQwesten"
+        android:layout_width="329dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_veiw_border"
+        android:hint="@string/CreateNewMishen_Secend_SCrean_New_Mishen_Q_YesNo_picher_Q"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout4"
+        android:layout_width="406dp"
+        android:layout_height="198dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/mainscreen"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextQwesten"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="2dp"></LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:adSize="LARGE_BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-10dp"></com.google.android.gms.ads.AdView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

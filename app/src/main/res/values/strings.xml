@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">test2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="signed">signed</string>
+    <string name="already_have_an_account_login">already_have_an_account_login</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="password">Pass Word</string>
+    <string name="email">Email</string>
+
+    <string name="don_t_have_an_account_sign_in">don_t_have_an_account_sign_in</string>
+    <string name="login">login</string>
+
+
+    <string name="MainScren_start_Play">Start Play Game</string>
+    <string name="MainScren_Create_new_Game">Create New Game</string>
+    <string name="MainScren_Setings">Setings</string>
+    <string name="MainScren_Show_Games_on_Map">show games</string>
+
+    <string name="CreateNewGame_lable_create_Game">Create or Edit New Game</string>
+
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Craet_Game_Name">Create Name</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Game_Subject">Game Subject</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Game_Descriptoin">Game Description</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Game_Kind">Game Kind</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Place_Of_Game">Place of Game</string>
+    <string name="CreateNewGame_lable_create_Game_Proprtis_Remarks">Remarkes</string>
+
+    <string name="CreateNewMishen_Main_SCrean_lable_create_Mishen">Create or Edit New Mishen</string>
+    <string name="CreateNewMishen_Main_SCrean_Subject_Select_game">Game Subject</string>
+
+    <string name="create_new_mishen_to_game_main_screan_Arry_Point_Info_Game">Game Start Point</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Main_lable">select Mishen Kind</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_Select_anser">Qwesten and pichers</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_Vidio">Qwesten and Vidoe </string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_Trivia">Trevia\noleg Qwesten</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_kind4">mishen qwesten</string>
+
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Main_lable">select Mishen Kind</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_4_Anser_Picher">Question and 4 anser on picher</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_YesNo_picher">Question yes no on picher</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_YesNo">Question yes no</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_4_Anser">Question and 4 anser</string>
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_kind4_LableKindDescription">Question and 4 anser mishen</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_YesNo_picher_LableKindDescription">Question yes no on picher</string>
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_YesNo_picher_Q">wrighit the Question (yes no) on the picher</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_SCrean_New_Mishen_Q_YesNo_LableKindDescription">Question yes no on picher</string>
+
+
+    <string name="CreateNewMishen_Secend_SCrean_New_Mishen_Q_SCrean_New_Mishen_Q_4_Anser_LableKindDescription">Question yes no on picher</string>
+
+
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_4_Anser_Video">Question and 4 anser on Video</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_YesNo_Video">Question yes no on video</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Video3">Question yes no vidio</string>
+    <string name="CreateNewMishen_Spesific_q_SCrean_New_Mishen_Q_Video4">Question and 4 anser video</string>
+
+
+    <string name="create_mishen_kind_1_1_radiobutten_hit_Q">Add Question</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser1">Add Anser</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser2">Add Anser</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser3">Add Anser</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_anser4">Add Anser</string>
+    <string name="create_mishen_kind_1_1_radiobutten_hit_imageView">Add picher from galery or camera</string>
+    <string name="create_mishen_kind_1_1_radiobutten_Need_TO_Add_Text">you need to add text to the Qwesten,anser and picher</string>
+
+    <string name="create_mishen_kind_1_2_yes_no_hit_Q">Add Question</string>
+    <string name="create_mishen_kind_1_2_yes_no_hit_anser_Yes">Add Anser Yes</string>
+    <string name="create_mishen_kind_1_2_yes_no_hit_anser_No">Add Anser_No</string>
+
+
+    <string name="maps_show_exist_games_game_subject">Game subject</string>
+    <string name="maps_show_exist_games_mishen_numbers">Number of mishen</string>
+    <string name="maps_show_exist_games_game_description">Game description</string>
+    <string name="maps_show_exist_games_game_kind">Game kind</string>
+    <string name="maps_show_exist_games_Butten_Mishen_Show_Mishen">Show Mishens</string>
+    <string name="maps_show_exist_games_Butten_Select_Mishen">Select Mishen</string>
+    <string name="maps_show_exist_games_MSB_Txt_Need_SelectGame">you need to Select Game</string>
+    <string name="maps_show_exist_games_MSB_Title_Need_SelectGame">you need to Select Game</string>
+
+
+    <string name="show_exist_games_and_mishens_to_play_save_game_to_play__save_Praviat_game">Save Game</string>
+    <string name="show_exist_games_and_mishens_to_play_save_game_to_play__save_Grop_game">create and save teem game</string>
+
+
+    <string name="manage_Mishen_When_Play_game_MSB_Txt_RongEnser">Rong Anser</string>
+    <string name="manage_Mishen_When_Play_game_Title_RongEnser">Anser</string>
+
+
+    <string name="start_play_select_game_butten_start_StartSelfGame">Start Play Femely Game  </string>
+    <string name="start_play_select_game_butten_start_StartGroupGame">Goin Group Game  </string>
+    <string name="start_play_select_game_butten_start_Nedd_To_Select_Game_msg">Select Game</string>
+    <string name="start_play_select_game_butten_start_Wating_TO_Dwonload_Game">Wating Dwonload Game</string>
+    <string name="start_play_select_game_butten_start_Finsh_TO_Dwonload_Game">game Ready To Play</string>
+
+    <string name="Maps_select_update_point_for_Mishen_butten_save_Point">Save Point</string>
+
+
+    <string name="Maps_select_update_point_for_Mishen_Marker_Title">Mishen Number - </string>
+    <string name="Maps_select_update_point_for_Mishen_Marker_New_Game_To_ADD">The new Game - Plase Push and Move To The Game Start</string>
+    <string name="Maps_select_update_point_for_Mishen_Marker_New_Mishen_To_ADD">The new missen - Plase Push and Move To The Mishen Place</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_Info_Title">explen to the player How to recive to this point </string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_How_To_Go_To_mishen">discription how to go to the mishen Point</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_clue_to_GO_TO_mishen">clue to get to the mishen point</string>
+    <string name="Maps_select_update_point_for_Mishen_Main_Instraction_Dont_SHow_GPS">Dont show the GPS Point (go to point only by instraction)</string>
+    <string name="title_activity_maps_the_direction_to_mishen">maps_the_direction_to_mishen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_maps_select_update_point_for_mishen_free_maps">
+        maps_select_update_point_for_mishen_free_maps
+    </string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
